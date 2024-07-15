@@ -1,0 +1,62 @@
+.social-icon {
+  // width: 32px;
+  // height: 32px;
+}
+.social-subscribers {
+}
+.social-link {
+  padding: 8px;
+  color: var(--common-black, #2f2f37);
+  border-radius: 16px;
+  font-family: var(--common-font);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+@media (min-width: 768px) {
+  // .social-link p {
+  //   justify-self: center;
+  // }
+}
+// .socials-item:nth-child(1) .social-link {
+//   background-color: var(--navy);
+// }
+.instagram {
+  background-color: var(--navy);
+}
+// .socials-item:nth-child(2) .social-link {
+//   background-color: var(--pink);
+// }
+.facebook {
+  background-color: var(--pink);
+}
+
+// .socials-item:nth-child(3) .social-link {
+//   background-color: var(--scarlet);
+// }
+.youtube {
+  background-color: var(--scarlet);
+}
+// .socials-item:nth-child(4) .social-link {
+//   background-color: var(--turquoise);
+// }
+.tiktok {
+  background-color: var(--turquoise);
+}
+// .socials-item:nth-child(5) .social-link {
+//   background-color: var(--yellow);
+// }
+.github {
+  background-color: var(--yellow);
+}
+// .socials-item:nth-child(6) .social-link {
+//   background-color: var(--lilac);
+// }
+.twitter {
+  background-color: var(--lilac);
+}

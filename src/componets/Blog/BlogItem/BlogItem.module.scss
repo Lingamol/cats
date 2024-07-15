@@ -1,0 +1,29 @@
+.blog-link {
+  color: var(--common-black);
+  display: grid;
+  gap: 20px;
+}
+.blog-photo {
+}
+.wrapper {
+}
+.blog-title {
+  color: var(--grey, #2c2c2c);
+  font-family: var(--common-font);
+  margin-bottom: 12px;
+}
+
+.blog-text {
+  color: var(--grey, #2c2c2c);
+  font-family: var(--common-font);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 768px) {
+  .blog-link {
+    gap: 24px;
+    grid-template-columns: 264px 1fr;
+  }
+}

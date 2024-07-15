@@ -1,0 +1,74 @@
+@import "./styles/styleguide.css";
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* :root {
+  --common-white: #ffffff;
+  --common-font: #2c2c2c;
+  --orange: #f07f2e;
+} */
+
+/* a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+} */
+body {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+/*  */
+@media (min-width: 1440px) {
+  .overlay {
+    padding: 24px 48px;
+  }
+}
+
+.post-title {
+  color: var(--common-white);
+  font-family: var(--common-font);
+}
+
+.footer {
+  padding: 16px;
+  background-color: var(--blue-light);
+}

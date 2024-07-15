@@ -1,0 +1,22 @@
+.link {
+  position: relative;
+  color: var(--common-white);
+}
+.img {
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(18, 18, 20, 0.5);
+  border-radius: 0px 0px 16px 16px;
+  padding: 12px 20px;
+}
+.text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+@media (min-width: 768px) {
+}

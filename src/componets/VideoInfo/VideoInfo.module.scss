@@ -1,0 +1,13 @@
+.video {
+  display: grid;
+  grid-template-columns: 1 1fr;
+  gap: 24px;
+}
+.video-title {
+  color: var(--grey, #2c2c2c);
+  font-family: var(--common-font);
+
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.29;
+}

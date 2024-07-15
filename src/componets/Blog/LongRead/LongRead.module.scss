@@ -1,0 +1,31 @@
+.longread {
+  display: grid;
+  gap: 96px;
+  padding-bottom: 96px;
+}
+@media (min-width: 1440px) {
+  // .longread {
+  //   gap: 60px 24px;
+  //   grid-template-columns: 744px 1fr;
+  //   grid-template-rows: repeat(4, 1fr);
+  // }
+  .longread {
+    padding-bottom: 80px;
+    gap: 60px 24px;
+    // grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "b b s"
+      "b b s"
+      "b b v"
+      "b b .";
+  }
+  .blog {
+    grid-area: b;
+  }
+  .socials {
+    grid-area: s;
+  }
+  .video {
+    grid-area: v;
+  }
+}

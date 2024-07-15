@@ -1,0 +1,26 @@
+// .socials {
+// }
+.socials-title {
+  color: var(--grey, #2c2c2c);
+  font-family: var(--common-font);
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.29;
+}
+.title {
+}
+.socials-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 8px;
+  row-gap: 24px;
+}
+
+// .socials-item {
+// }
+@media (min-width: 768px) {
+  .socials-list {
+    gap: 24px;
+  }
+}
